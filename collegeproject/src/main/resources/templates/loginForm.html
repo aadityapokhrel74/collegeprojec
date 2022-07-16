@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
@@ -19,6 +19,7 @@
 <label>Login form</label>
   </div>
    <div class="card-body">
+   <h1 style:"color:red">[[${message}]]</h1>
     <div class="row py-2">
     <div class="col-4">username</div>
     <div class="col-6"><input type="text" name="username" class="form-control" required="required"></div></div>
